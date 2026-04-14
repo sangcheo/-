@@ -1,0 +1,13 @@
+1)
+master branch 를 mian branch로 변경
+git branch -m "main"
+
+
+2)
+git remote add origin 본인원격리포지토리주소
+=깃허브에 올릴 수 있는 권한 넣기
+git remote -v = 파일 올릴 수 있는지 없는지 확인 할 수 있는 기능
+git push -u origin main (만약 main으로 안 바꿨을 시 marter로 기입) 
+= 원격 리포지토리에 업로드 및 동기화 
+
+다음부턴 git push 만 사용해도 가능
